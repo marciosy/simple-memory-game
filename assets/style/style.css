@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 432px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+
+h3 {
+  margin: 1rem 0 .5rem 0;
+}
+
+.textInfo {
+  margin: 0 0 .5rem 0;
+}
+
+.textInfo.correct {
+  color: #7faf51;
+  font-weight: bold;
+}
+
+.textInfo.wrong {
+  color: #fa3535;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid .card {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 0 8px 8px 0;
+}
+
+.grid .card.found {
+  box-shadow: none;
+  pointer-events: none;
+}
